@@ -1,10 +1,9 @@
-I2C-bus interaction of peripheral sensors with Raspberry PI embedded linux or respective clones
-==============================================================================================
+# go-i2c
+This library is a fork of [d2r2/go-i2c](https://github.com/d2r2/go-i2c).
 
-This library written in [Go programming language](https://golang.org/) intended to activate and interact with the I2C bus by reading and writing data.
+This library is intended to activate and interact with the I2C bus by reading and writing data.
 
-Golang usage
-------------
+### Usage
 
 ```go
 func main() {
@@ -22,8 +21,7 @@ func main() {
 }
 ```
 
-Troubleshooting
---------------
+### Troubleshooting
 
 - *How to obtain fresh Golang installation to RPi device (either any RPi clone):*
 If your RaspberryPI golang installation taken by default from repository is outdated, you may consider
@@ -52,12 +50,10 @@ to discover address occupied by peripheral device. To install utility you should
 	70: -- -- -- -- -- -- 76 --    
 	```
 
-Credits
--------
+### Credits
 
 [d2r2/go-i2c](https://github.com/d2r2/go-i2c)
 
-License
--------
+### License
 
-Go-i2c is licensed under MIT License.
+`go-i2c` is licensed under MIT License.
